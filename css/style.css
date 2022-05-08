@@ -1,0 +1,145 @@
+* {
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+.wrap {
+	max-width: 945px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 15px 0;
+}
+
+a {
+	color: gray;
+}
+
+a:focus {
+	color: #000;
+}
+
+.main {
+	margin-bottom: 224px;
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about h2 {
+	font-size: 47px;
+}
+
+.main-image {
+	text-align: center;
+}
+
+.about-me {
+	width: 485px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 190px;
+}
+
+.about-me h2 {
+	margin: 0;
+	font-size: 34px;
+}
+
+.about-me p {
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.skills {
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.skills p {
+	margin-bottom: 60px;
+}
+
+.programmas {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.figma {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	margin-bottom: 110px;
+}
+
+.first-portfolio {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.portfolio p {
+	text-decoration: underline;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.contacts p {
+	margin: 0;
+}
+
+.contacts .second-p {
+	margin-bottom: 30px;
+}
+
+.contacts button {
+	background-color: #000;
+	color: #fff;
+	padding: 13px 28px;
+	border-radius: 30px;
+	border: none;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.icons {
+	display: flex;
+	gap: 60px;
+}
