@@ -26,7 +26,9 @@ button {
 	margin: 0;
 	padding: 15px 0;
 }
-
+.nav a:hover {
+	color: #000;
+}
 a {
 	color: gray;
 }
@@ -53,6 +55,13 @@ a:focus {
 	text-align: center;
 }
 
+.main-image img {
+	max-width: 800px;
+	width: 100%;
+	max-height: 400px;
+	height: 100%;
+}
+
 .about-me {
 	width: 485px;
 	margin: 0 auto;
@@ -63,16 +72,22 @@ a:focus {
 .about-me h2 {
 	margin: 0;
 	font-size: 34px;
+	line-height: 2;
 }
 
 .about-me p {
 	margin: 0;
 	margin-bottom: 30px;
+	line-height: 1.5;
 }
 
 .skills {
 	text-align: center;
 	margin-bottom: 120px;
+}
+
+.skills h2 {
+	margin-bottom: 40px;
 }
 
 .skills p {
@@ -91,6 +106,14 @@ a:focus {
 	align-items: center;
 }
 
+.figma img {
+	max-width: 50px;
+	width: 100%;
+}
+.figma p {
+	margin-top: 15px;
+}
+
 .portfolio {
 	display: flex;
 	flex-direction: column;
@@ -98,13 +121,15 @@ a:focus {
 	gap: 40px;
 	margin-bottom: 110px;
 }
-
 .first-portfolio {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-
+.first-portfolio img {
+	max-width: 900px;
+	width: 100%;
+}
 .portfolio p {
 	text-decoration: underline;
 }
@@ -131,15 +156,9 @@ a:focus {
 	border-radius: 30px;
 	border: none;
 }
-
-.footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 100px;
+.contacts button a {
+	color: #fff;
 }
-
-.icons {
-	display: flex;
-	gap: 60px;
+.contacts button:hover {
+	background-color: #1b1b1b;
 }
