@@ -56,14 +56,12 @@ a:focus {
 }
 
 .main-image img {
-	max-width: 800px;
 	width: 100%;
-	max-height: 400px;
-	height: 100%;
 }
 
 .about-me {
-	width: 485px;
+	max-width: 485px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 190px;
